@@ -54,4 +54,4 @@ A special trick is adding ` Application.ScreenUpdating = False` to the beginning
 ## Summary
 Refactoring code can make the subroutine run faster and code lines being shorter than the original codes. Nowadays, with the access to date sets being bigger and bigger, creating efficient codes saves huge amount of time. However, refactoring code too far may not be as beneficial as no matter how fast a code run, the time elapsed cannot be negative. Refactoring may also introduce errors to the code if the steps are not being taken carefully.
 
-On this project specifically, which the current data set is not so big, the code does not necessarily need to be extremely fast. The core element in the refactored script is `tickerIndex`, which can create errors if not calculated right.
+On this project specifically, which the current data set is not so big, the code does not necessarily need to be extremely fast. The core element in the refactored script is `tickerIndex`, which could create errors if was used incorrectly.
