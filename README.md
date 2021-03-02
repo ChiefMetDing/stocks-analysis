@@ -1,6 +1,7 @@
 # Stocks Analysis
 Data Analytics Boot Camp Module 2 Challenge
 ## Project Overview
+Steve’s parents are considering investing their money in the stock market, however they are not so familiar with the products. DQ drew their attention by its name, but Steve wants to give a closer analysis on the stocks’ volume and prices rather than only names. Considering the massiveness of the data in the stocks market, Steve is considering seeking for assistance from using VBA. The project is to help Steve create a workbook with VBA scripts that analyze a list of stocks in 2017 and 2018 by their daily volumes and annual return rates.
 
 ## Results
 The analysis results show that the best performers from 2017 to 2018 are ENPH, SEDG and RUN.
