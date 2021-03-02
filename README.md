@@ -27,11 +27,23 @@ The top best performers in the 12 stocks list should be ENPH, SEDG and RUN. Bein
 ![VBA_Challenge_2017+2018_table](https://user-images.githubusercontent.com/78275082/109587112-83556800-7ad4-11eb-9bea-865ac879e10c.png)
 
 ### Original Script vs. Refactored Script
-The original script completes the analysis on either 2017 or 2018 stocks data in 0.1328 second, while the refactored script completes the task with 0.0234 second. The analysis is dramatically increased by simplifying calculation steps and methods. Below are the screenshots (*Graph 1*, *Graph 2*).
+The original script completes the analysis on either 2017 or 2018 stocks data in 0.1328 second, while the refactored script completes the task with 0.0234 second. The analysis is dramatically increased by simplifying calculation steps and methods. Below are the screenshots (*Graph 1*, *Graph 2*, *Graph 3* and *Graph 4*).
+
+![VBA_Challenge_2017_original](https://user-images.githubusercontent.com/78275082/109589685-b26dd880-7ad8-11eb-8403-6dec1ccf3954.png)
+
+(*Graph 1 Original script's elapsed run time in 2017*)
+
+![VBA_Challenge_2018_original](https://user-images.githubusercontent.com/78275082/109589696-b699f600-7ad8-11eb-8598-af79f130577a.png)
+
+(*Graph 2 Original script's elapsed run time in 2018*)
 
 ![VBA_Challenge_2017 png](https://user-images.githubusercontent.com/78275082/109589301-2065d000-7ad8-11eb-82bd-cea93f044468.png)
+
+(*Graph 3 Refactored script's elapsed run time in 2017*)
+
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/78275082/109589307-222f9380-7ad8-11eb-9e8c-8d2753ff8c36.png)
 
+(*Graph 4 Refactored script's elapsed run time in 2018*)
 
 The refactored script completes the analysis with single looping through the stocks data. This simplified process is accomplished by establishing a `tickerIndex`, which helps record the stock’s name, volume and prices as the loop goes through. The time is saved by making every loop take the arguments and add some values. On the other hand, the original script creates 11 times more loops that only make arguments without calculating.
 
