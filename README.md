@@ -3,6 +3,9 @@ Data Analytics Boot Camp Module 2 Challenge
 ## Project Overview
 
 ## Results
+The analysis results show that the best performers from 2017 to 2018 are ENPH, SEDG and RUN.
+
+The refactored script can run the analysis as fast as 0.0234 second, which is only 17.6% of the time spent by the script before refactored.
 
 ### Stocks Performance in 2017 and 2018
 2017 was a bullish year for most of the stocks on the list, as shown in the table below (*Table 1*). A third of the stocks doubled their prices in the end of the year. DQ performed the best among all the stocks listed, with 199.4% return rate. However, the total daily volume of DQ was the lowest in the list. 35,796,200 made DQ being not so reliable. TERP performed the worst in 2017 with -7.2% return, being the only stock had negative return.
