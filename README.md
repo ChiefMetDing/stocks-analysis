@@ -27,7 +27,7 @@ The top best performers in the 12 stocks list should be ENPH, SEDG and RUN. Bein
 ![VBA_Challenge_2017+2018_table](https://user-images.githubusercontent.com/78275082/109587112-83556800-7ad4-11eb-9bea-865ac879e10c.png)
 
 ### Original Script vs. Refactored Script
-The original script completes the analysis on either 2017 or 2018 stocks data in 0.1328 second, while the refactored script completes the task with 0.0234 second. The analysis is dramatically increased by simplifying calculation steps and methods. Below are the screenshots (*Graph 1*, *Graph 2*, *Graph 3* and *Graph 4*).
+The original script completes the analysis on either 2017 or 2018 stocks data in 0.14 second, while the refactored script completes the task with 0.03 second. The analysis is dramatically increased by simplifying calculation steps and methods. Below are the screenshots (*Graph 1*, *Graph 2*, *Graph 3* and *Graph 4*).
 
 ![VBA_Challenge_2017_original](https://user-images.githubusercontent.com/78275082/109589685-b26dd880-7ad8-11eb-8403-6dec1ccf3954.png)
 
