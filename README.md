@@ -27,5 +27,12 @@ The top best performers in the 12 stocks list should be ENPH, SEDG and RUN. Bein
 ![VBA_Challenge_2017+2018_table](https://user-images.githubusercontent.com/78275082/109587112-83556800-7ad4-11eb-9bea-865ac879e10c.png)
 
 ### Original Script vs. Refactored Script
+The original script completes the analysis on either 2017 or 2018 stocks data in 0.1328 second, while the refactored script completes the task with 0.0234 second. The analysis is dramatically increased by simplifying calculation steps and methods.
+
+The refactored script completes the analysis with single looping through the stocks data. This simplified process is accomplished by establishing a `tickerIndex`, which helps record the stock’s name, volume and prices as the loop goes through. The time is saved by making every loop take the arguments and add some values. On the other hand, the original script creates 11 times more loops that only make arguments without calculating.
+
+The methods used to determine the last row of a worksheet also make a difference. The ` rowEnd = Cells.Find("*", searchorder:=xlByRows, searchdirection:=xlPrevious).Row` runs much faster than ` rowEnd = Cells(Rows.Count, "A").End(xlUp).Row`.
+
+A special trick is adding ` Application.ScreenUpdating = False` to the beginning of the script and adding it back in the end as ` Application.ScreenUpdating = True`, if the script does not need to update the screen.
 
 ## Summary
